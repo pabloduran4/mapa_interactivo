@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url('../../img/fondo.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ 
+}
+
+#mapa{
+    position: absolute;
+    right: 0%;
+    width: 58%;
+    top: 18vw;
+}
+
+.puntos{
+    position: absolute;
+    cursor: pointer;
+    width: 1%;
+}
+
+#p_antonio{
+    right: 33%;
+    top: 28vw;
+    
+}
+
+#p_barrios{
+    right: 41%;
+    top: 26vw;
+}
+
+#p_bosa{
+    right: 36%;
+    top: 38vw;
+}
+
+#p_candelaria{
+    right: 34%;
+    top: 25vw;
+}
+
+#p_chapinero{
+    right: 39%;
+    top: 23vw;
+}
+
+#p_ciudad_bolivar{
+    right: 24%;
+    top: 33vw;
+}
+
+#p_engativa{
+    right: 45%;
+    top: 29vw;
+}
+
+#p_fontibon{
+    right: 43%;
+    top: 33vw;
+}
+
+#p_teusaquillo{
+    right: 38%;
+    top: 27vw;
+}
+
+#p_kenedy{
+    right: 37%;
+    top: 33vw;
+}
+
+#p_martires{
+    right: 35%;
+    top: 27vw;
+}
+
+#p_puente_aranda{
+    right: 36%;
+    top: 29vw;
+}
+
+#p_rafael_uribe{
+    right: 31%;
+    top: 29.5vw;
+}
+
+#p_san_cristobal{
+    right: 30%;
+    top: 25vw;
+}
+
+#p_santafe{
+    right: 34%;
+    top: 21vw;
+}
+
+#p_suba{
+    right: 49%;
+    top: 26vw;
+}
+
+#p_tunjuelito{
+    right: 32.5%;
+    top: 31.5vw;
+}
+
+#p_usaquen{
+    right: 48%;
+    top: 21vw;
+}
+
+#p_usme{
+    right: 23%;
+    top: 28vw;
+}
+

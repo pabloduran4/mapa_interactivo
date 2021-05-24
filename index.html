@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="./estilos//estilos.css">
+</head>
+    <img src="./img/mapa_vacio.png" alt="" id="mapa">
+
+    <!-- puntos -->
+    <img src="./img/punto.png" alt="" class="puntos" id="p_antonio">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_barrios">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_bosa">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_candelaria">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_chapinero">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_ciudad_bolivar">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_engativa">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_fontibon">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_teusaquillo">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_kenedy">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_martires">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_puente_aranda">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_rafael_uribe">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_san_cristobal">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_santafe">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_suba">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_tunjuelito">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_usaquen">
+    <img src="./img/punto.png" alt="" class="puntos" id="p_usme">
+    <!-- puntos -->
+
+<!-- <img src="./img/rafael_uribe.png" alt=""> -->
+</body>
+
+<script src="./js/jquery-3.4.1.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        function mapa(id_p,id_m,ruta){
+
+            $(id_p).mouseenter(function(){
+              $(id_m).attr('src' , ruta);
+              $(id_m).css({
+                  "top" : "8.5vw"
+              });
+
+
+          }).mouseleave(function(){
+            $(id_m).css({
+                  "top" : "8.5vw"
+              });
+        });
+        
+        }
+        //cierra funcion
+
+        mapa('#p_antonio' , '#mapa' , './img/antonio.png');
+        mapa('#p_barrios' , '#mapa' , './img/barrios_unidos.png');
+        mapa('#p_bosa' , '#mapa' , './img/bosa.png');
+        mapa('#p_candelaria' , '#mapa' , './img/candelaria.png');
+        mapa('#p_chapinero' , '#mapa' , './img/chapinero.png');
+        mapa('#p_ciudad_bolivar' , '#mapa' , './img/ciudad_bolivar.png');
+        mapa('#p_engativa' , '#mapa' , './img/engativa.png');
+        mapa('#p_fontibon' , '#mapa' , './img/fontibon.png');
+        mapa('#p_teusaquillo' , '#mapa' , './img/teusaquillo.png');
+        mapa('#p_kenedy' , '#mapa' , './img/kenedy.png');
+        mapa('#p_martires' , '#mapa' , './img/martires.png');
+        mapa('#p_puente_aranda' , '#mapa' , './img/puente_aranda.png');
+        mapa('#p_rafael_uribe' , '#mapa' , './img/rafael_uribe.png');
+        mapa('#p_san_cristobal' , '#mapa' , './img/san_cristobal.png');
+        mapa('#p_santafe' , '#mapa' , './img/santafe.png');
+        mapa('#p_suba' , '#mapa' , './img/suba.png');
+        mapa('#p_tunjuelito' , '#mapa' , './img/tunjuelito.png');
+        mapa('#p_usaquen' , '#mapa' , './img/usaquen.png');
+        mapa('#p_usme' , '#mapa' , './img/usme.png');
+
+    });
+</script>
+</html>
